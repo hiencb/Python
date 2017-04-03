@@ -1,2 +1,2 @@
-print('e = ', e)
-print('f = ', f)
+result = (e - 2) * (f + 3)
+print('result:', result)
