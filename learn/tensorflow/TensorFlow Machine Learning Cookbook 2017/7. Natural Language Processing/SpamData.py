@@ -1,10 +1,9 @@
-import os
-import requests
 import io
+import os
 import string
-import numpy as np
-import pandas as pd
 from zipfile import ZipFile
+import pandas as pd
+import requests
 
 
 class SpamData:
