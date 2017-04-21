@@ -4,11 +4,8 @@ import nltk
 from nltk.corpus import stopwords
 
 
-class AbstractRemoteData(ABCMeta):
+class AbstractRemoteData(metaclass=ABCMeta):
     _stopwords_ = stopwords.words('english')
-
-    def __new__(self, url: str = None):
-        self._URL_ = url or 'http://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz'
 
     def load_data(self):
         if not self.is_downloaded():

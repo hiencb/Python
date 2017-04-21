@@ -1,12 +1,14 @@
+*.zip
+*.tar.gz
+/**/remote_data
 learn/ipython/Interactive Data Analysis with pandas/nyc_taxi.zip
 learn/ipython/Interactive Data Analysis with pandas/data/
 learn/ipython/Numerical Computing with numpy/nyc_taxi.zip
 learn/ipython/Numerical Computing with numpy/data/
 learn/tensorflow/www.tensorflow.org/MNIST_data/
-learn/tensorflow/www.tensorflow.org/logs/
+learn/tensorflow/**/logs/
 learn/tensorflow/TensorFlow Machine Learning Cookbook 2017/1. Getting Started with TensorFlow/MNIST_data/
 learn/tensorflow/TensorFlow Machine Learning Cookbook 2017/1. Getting Started with TensorFlow/spamdata/
-learn/tensorflow/TensorFlow Machine Learning Cookbook 2017/1. Getting Started with TensorFlow/smsspamcollection.zip
 learn/tensorflow/TensorFlow Machine Learning Cookbook 2017/1. Getting Started with TensorFlow/rt-polaritydata.tar.gz
 learn/tensorflow/TensorFlow Machine Learning Cookbook 2017/1. Getting Started with TensorFlow/rt-polaritydata.README.1.0.txt
 learn/tensorflow/TensorFlow Machine Learning Cookbook 2017/1. Getting Started with TensorFlow/rt-polaritydata/
@@ -17,5 +19,4 @@ learn/tensorflow/TensorFlow Machine Learning Cookbook 2017/1. Getting Started wi
 learn/tensorflow/TensorFlow Machine Learning Cookbook 2017/1. Getting Started with TensorFlow/eg/
 learn/tensorflow/TensorFlow Machine Learning Cookbook 2017/7. Natural Language Processing/SpamCollection/
 learn/tensorflow/TensorFlow Machine Learning Cookbook 2017/7. Natural Language Processing/SpamCollection.zip
-learn/tensorflow/TensorFlow Machine Learning Cookbook 2017/2. The TensorFlow Way/logs/
 
