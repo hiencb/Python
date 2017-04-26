@@ -2,8 +2,7 @@ import numpy as np
 
 
 def partition_indices(n: int, ratio_train=0.8, ratio_cv: float = None) -> (np.ndarray, np.ndarray, np.ndarray):
-    idx = np.arange(n)
-    np.random.shuffle(idx)
+    idx = np.random.permutation(range(n))
 
     n_train = int(n * ratio_train)
     train_idx = idx[: n_train]
